@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.App{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.SearchDiv{
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: black;
+    color: white;
+}
+
+.SearchDiv input{
+    width: 20%;
+    display: block;
+    padding: 8px;
+    border: 2px solid #101010;
+    color: #101010;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px
+}
+
+.SearchDiv button{
+    width: 160px;
+    height: 38px;
+    margin-top: 20px;
+    background-color: #ba0000;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 550;
+    padding-bottom: 3px;
+    border-radius: 3px
+}
+
+.SearchDiv button:hover{
+    cursor: pointer;
+}
+
+.Info{
+    width: 64%;
+    margin: 0 auto;
+    margin-top: 40px
+}
+
+.InfoDetails{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.InfoDetails div{
+    width: 65%
+}
+
+.InfoDetails div a{
+    color: red
+}
+
+.TopTracksSimilarArtists{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px
+}
+
+.Track{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 5px 10px 5px 30px;
+    font-size: 20px
+}
+
+.Track img {
+    margin-right: 30px;
+    margin-left: 10px
+}
+
+.Track a{
+    text-decoration: none;
+    color: red
+}
+
+.SimilarArtist{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 5px 10px 5px 30px;
+    font-size: 20px
+
+}
+
+.SimilarArtist img{
+    margin-right: 30px;
+    margin-left: 10px
+}
+
+.SimilarArtist a{
+    text-decoration: none;
+    color: red
+}
+
+.Recent:hover{
+    cursor: pointer;
+    color: #ba0000;
+}
